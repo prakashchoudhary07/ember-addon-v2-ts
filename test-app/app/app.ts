@@ -8,5 +8,5 @@ export default class App extends Application {
   podModulePrefix = config.podModulePrefix;
   Resolver = Resolver;
 }
-
+// @ts-expect-error
 loadInitializers(App, config.modulePrefix);
